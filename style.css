@@ -1,0 +1,160 @@
+
+.titulo {
+  padding: 15px;
+  width: 30vw;
+  margin: auto;
+
+}
+
+body{
+  
+  background-image: url(https://play-lh.googleusercontent.com/gqxrhvSmzhqsLivmjCFtj61jXMFVE_4XIg4GDqnkwZ6tsjdc_P0HVYZDUXmv-483Hck6=s180-rw);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1000px;
+
+}
+#areaJuego{
+  display :none;
+  height: 200vh;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+   
+}
+.comienzo {
+  font-size: 7rem;
+  position: absolute;
+  width: 20%;
+   
+}
+
+.btn {
+  color: rgb(64, 255, 54); 
+  font-size: 1rem; 
+  line-height: 16px; 
+  padding: 16px; 
+  border-radius: 38px; 
+  font-family: "Comic Sans MS", cursive, sans-serif; 
+  font-weight: normal; 
+  text-decoration: none; 
+  text-shadow: 2px 2px 2px #CE5937;
+  font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: none; display: inline-block;}
+  .btn:hover {  
+    background: #1C6EA4; }
+  .btn:active { 
+     background: #144E75; }
+
+  
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#palabraSecreta {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    padding: 15px;
+    
+    text-align: center;
+    word-spacing: 3px;
+    color: #c8e90f;
+}
+
+#letrasError {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 15px;
+    color:  #f12308;
+
+}
+
+#vidas {
+
+    font-size: 20px;
+    color:  #7763e4;
+
+}
+
+
+.comienzo {
+  font-size: 7rem;
+  position: absolute;
+  width: 100%;
+   
+}
+
+#ahorcado {
+  border: 2px solid rgb(7, 14, 0);
+  background-color: rgb(18, 218, 245);
+  width: 70%;
+  
+}
+.mensaje {
+  
+  position: fixed;
+  left: 65em;
+  top: 23em;
+  width: 30%;
+  
+}
+
+#resultadoGanador{
+  position: absolute;
+  left: 43em;
+  top: 10em;
+  font-size: 25px;
+  color: rgb(20, 231, 30);
+  background-color: rgb(230, 239, 240);
+
+
+}
+#resultadoPerdedor{
+  position: absolute;
+  
+  left: 43em;
+  top: 10em;
+  font-size: 25px;
+  color: rgb(240, 30, 23);
+
+}
+#reiniciar-juego{
+  left: 40em;
+  top: 5em;
+
+ }
+
+ @media screen and(min-width:300px) and ( max-width: 800px){
+   .comienzo{
+     width: 100%;
+   }
+   #areaJuego{
+     width: 100%;
+   }
+   body{
+    width: 100%;
+   }
+   .mensaje {
+     width: 30%;
+   }
+
+ }
+
+

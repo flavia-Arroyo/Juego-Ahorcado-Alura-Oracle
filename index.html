@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale= 1.0, maximum-scale = 1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class = "contenedor">
+      <section class= "comienzo">
+     
+        <div style="text-align:center; margin: 50px 0px;">
+          <h1 class="titulo">Ahorcado</h1>
+          <button class="btn" id="iniciar-juego" >INICIAR JUEGO</button>
+        </div>
+        <div style="text-align:center">
+          <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+          <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button> 
+        </div>
+      </section>
+    
+    
+      
+      <div id = "areaJuego" style="text-align:center;">
+        <canvas id="ahorcado" height="400px" width="800px"></canvas>
+        
+      
+          <div class ="mensaje" >
+            <button class="btn" id="reiniciar-juego" onclick="location.reload()">NUEVO JUEGO</button>
+            <div id= "palabraSecreta"></div>
+            <h2 id= "tituloLetras" ></h2>
+            <div id= "letrasError"></div>
+            <div id="vidas"></div>
+            
+        
+
+          </div>
+        <div id= "resultadoGanador"></div>
+        <div id= "resultadoPerdedor"></div>
+      
+       
+      </div>
+      
+     
+  
+      
+      
+    </main>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+    <script src = "https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  </body>
+</html>
