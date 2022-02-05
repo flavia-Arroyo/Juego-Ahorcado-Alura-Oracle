@@ -1,7 +1,7 @@
 
 .titulo {
-  padding: 15px;
-  width: 30vw;
+  padding: 1px;
+
   margin: auto;
 
 }
@@ -10,29 +10,28 @@ body{
   
   background-image: url(https://play-lh.googleusercontent.com/gqxrhvSmzhqsLivmjCFtj61jXMFVE_4XIg4GDqnkwZ6tsjdc_P0HVYZDUXmv-483Hck6=s180-rw);
   background-size: cover;
-  background-repeat: no-repeat;
+  
   font-family: sans-serif;
-  width: 100%;
+  width: 70%;
 }
 
 .contenedor {
-  width: 100%;
-  max-width: 1000px;
+  width: 70%;
+  max-width: 100px;
 
 }
 #areaJuego{
   display :none;
-  height: 200vh;
-  justify-content: center;
   height: 100vh;
+  justify-content: center;
   width: 100%;
   margin: auto;
-  position: fixed;
+  position: absolute;
    
 }
 .comienzo {
-  font-size: 7rem;
-  position: absolute;
+  font-size: 1rem;
+  
   width: 20%;
    
 }
@@ -74,7 +73,7 @@ body{
     
     text-align: center;
     word-spacing: 3px;
-    color: #c8e90f;
+    color: #e90fe9;
 }
 
 #letrasError {
@@ -102,24 +101,21 @@ body{
 }
 
 #ahorcado {
-  border: 2px solid rgb(7, 14, 0);
+  
   background-color: rgb(18, 218, 245);
-  width: 70%;
+  width: 90%;
   
 }
 .mensaje {
   
-  position: fixed;
-  left: 65em;
-  top: 23em;
-  width: 30%;
+  position: absolute;
+  
   
 }
 
 #resultadoGanador{
   position: absolute;
-  left: 43em;
-  top: 10em;
+  top:11em;
   font-size: 25px;
   color: rgb(20, 231, 30);
   background-color: rgb(230, 239, 240);
@@ -129,8 +125,7 @@ body{
 #resultadoPerdedor{
   position: absolute;
   
-  left: 43em;
-  top: 10em;
+  top : 11em;
   font-size: 25px;
   color: rgb(240, 30, 23);
 
@@ -155,6 +150,17 @@ body{
      width: 30%;
    }
 
+ }
+
+ .reservado{
+  position: absolute;
+  
+ 
+  bottom: 0px;
+  color: #e71212;
+  background-color: #234064;
+  text-align: start;
+  
  }
 
 

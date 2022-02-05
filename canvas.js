@@ -5,7 +5,7 @@ pincel.fillStyle= "grey"
 
 function dibujarBase(){
     pincel.beginPath();
-    pincel.moveTo(400, 350);
+    pincel.moveTo(20, 350);
     
     pincel.lineTo(300, 350);
     
@@ -23,10 +23,12 @@ function dibujarPoste(){
     
     pincel.beginPath();
     pincel.moveTo(150, 100);
-    pincel.lineTo(150, 50);
-    pincel.lineTo(400,50);    
-    pincel.lineTo(400, 350);
-    pincel.lineWidth = 15;
+    pincel.lineTo(150, 100);
+    pincel.moveTo(150, 120);
+    pincel.lineTo(150, 100);
+    pincel.lineTo(50,100);    
+    pincel.lineTo(50, 350);
+    pincel.lineWidth = 3;
     pincel.strokeStyle = "#000"
     pincel.stroke()
     pincel.closePath();
@@ -38,7 +40,7 @@ function dibujarPoste(){
 
 function dibujarRostro(){
     pincel.beginPath();
-    pincel.arc(150,140,40,0,Math.PI * 2, false);
+    pincel.arc(150,150,35,0,Math.PI * 2, false);
     pincel.strokeStyle = "red";
     pincel.lineWidth = 5;
     pincel.stroke();
@@ -85,11 +87,14 @@ function dibujarPiernas(){
 
 function dibujarOjosMuertos(){
     pincel.beginPath();
+    
     //ojo izquierdo
     pincel.moveTo(125,120);
     pincel.lineTo(145,145);
     pincel.moveTo(145,120);
     pincel.lineTo(125,145);
+    
+    
     //ojo derecho
     pincel.moveTo(155,120);
     pincel.lineTo(175,145);
