@@ -1,7 +1,7 @@
 
 .titulo {
   padding: 1px;
-
+  
   margin: auto;
 
 }
@@ -30,7 +30,9 @@ body{
    
 }
 .comienzo {
-  font-size: 1rem;
+  font-size: 1;
+  height: 5vh;
+  
   
   width: 20%;
    
@@ -125,7 +127,7 @@ body{
 #resultadoPerdedor{
   position: absolute;
   
-  top : 11em;
+  top : 20em;
   font-size: 25px;
   color: rgb(240, 30, 23);
 
@@ -153,13 +155,18 @@ body{
  }
 
  .reservado{
-  position: absolute;
   
- 
+  position: absolute !important;
+  width: 100%;
+  max-width: 100%;
+  padding: 1px 1px;
+  font-size: 15px;
+  text-align: center;
+  align-items: center;
   bottom: 0px;
-  color: #e71212;
-  background-color: #234064;
-  text-align: start;
+  color: #0a0a0a;
+  background-color: #8bbcf5;
+  
   
  }
 
